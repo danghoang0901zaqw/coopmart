@@ -1,0 +1,36 @@
+.footer {
+  padding: 60px 0 30px;
+  background: var(--primary-color);
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
+  .footer__text {
+    color: #fff;
+  }
+  .footer__quick--link {
+    h4 {
+      color: #fff;
+      margin-bottom: 30px;
+
+      font-size: 1.1rem;
+    }
+    ul {
+      li {
+        background: transparent !important;
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .footer__copyright {
+    font-size: 0.9rem;
+    
+  }
+}
